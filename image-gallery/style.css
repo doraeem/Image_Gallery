@@ -23,7 +23,6 @@ body{
     margin-left: 40px;
     margin-top: 10px;
     margin-bottom: 10px;
-    /* background-color: black; */
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -36,12 +35,32 @@ body{
     align-items: center;
     width: 19%;  
 }
-img{
+.img-div img{
     height: 330px;  
     width: 100%;  
     object-fit: cover;
     border: 1px solid white;
 }
-img:hover{
+.img-div img:hover{
     height: 340px;
+}
+.show-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: bisque;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    border: none;
+}
+.hide{
+    display: none;
+}
+#full-image{
+    height: 90%;
+    width: 100vmin;
+    object-fit: contain;
 }
